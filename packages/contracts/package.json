@@ -3,7 +3,7 @@
     "version": "0.2.0",
     "license": "GPL-3.0-or-later",
     "scripts": {
-        "build": "npx hardhat compile",
+        "build": "npx hardhat compile"
     },
     "dependencies": {
         "@openzeppelin/contracts": "3.2.0"
