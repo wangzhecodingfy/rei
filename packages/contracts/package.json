@@ -4,7 +4,7 @@
     "main": "dist/index.js",
     "license": "GPL-3.0-or-later",
     "scripts": {
-        "build": "npx hardhat compile && tsc",
+        "build": "npx hardhat compile",
         "node": "npx hardhat node",
         "test": "npx hardhat test",
         "docgen": "solidity-docgen -i ./src -t ./templates -H ./helper.js",
