@@ -1,14 +1,9 @@
 {
     "name": "@rei-network/contracts",
     "version": "0.2.0",
-    "main": "dist/index.js",
     "license": "GPL-3.0-or-later",
     "scripts": {
         "build": "npx hardhat compile",
-        "node": "npx hardhat node",
-        "test": "npx hardhat test",
-        "docgen": "solidity-docgen -i ./src -t ./templates -H ./helper.js",
-        "clean:build": "rm -rf ./artifacts ./cache ./deployments ./docs ./types"
     },
     "dependencies": {
         "@openzeppelin/contracts": "3.2.0"
